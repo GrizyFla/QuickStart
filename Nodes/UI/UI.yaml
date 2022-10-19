@@ -119,3 +119,109 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 5.0
+  - Name: NavigationPanel1
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"d8a5f1410e5decea0e81ff8fb38f6ffd","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel2
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"d25f4213941236407a8ed18acf00cf9b","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"cde300990a02ce00463591191ab8c4bc","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"0499a046151612e3aa12f77c7a4bd7f9","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":6,"Namespace":3}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 55.0
+- File: Pages/Pages.yaml

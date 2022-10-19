@@ -1,0 +1,44 @@
+Name: Pages
+Type: FolderType
+Children:
+- Name: Page
+  Id: g=b6d09cb7682bea606119a32b32559374
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1060.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 500.0
+  - Name: LeftMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 10.0
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 10.0
+- Name: Page1
+  Id: g=d8a5f1410e5decea0e81ff8fb38f6ffd
+  Supertype: Page
+  ReferenceType: HasComponent
+- Name: Page2
+  Id: g=d25f4213941236407a8ed18acf00cf9b
+  Supertype: Page
+  ReferenceType: HasComponent
+- Name: Page3
+  Id: g=cde300990a02ce00463591191ab8c4bc
+  Supertype: Page
+  ReferenceType: HasComponent
+- Name: Page4
+  Id: g=0499a046151612e3aa12f77c7a4bd7f9
+  Supertype: Page
+  ReferenceType: HasComponent
