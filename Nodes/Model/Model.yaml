@@ -1,2 +1,24 @@
 Name: Model
 Type: FolderType
+Children:
+- Name: Ingredient01
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ingredient02
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ingredient03
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Motor1Alarm
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Temperature
+  Id: g=27c6192b795555bcdf884f4a34bd48ca
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
