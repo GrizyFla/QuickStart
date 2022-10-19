@@ -1,2 +1,89 @@
 Name: Recipes
 Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Id: g=61de579082200d6879a46f2d296cb246
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient02
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient03
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=23;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a009f482ca8d533a668320c5554d0187","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"b3ad8734d7e065d86607fa4db7fd96eb","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+  - Name: EditModel
+    Id: g=c8e0d75005205993b9980e3a0036913c
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient02
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient03
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0

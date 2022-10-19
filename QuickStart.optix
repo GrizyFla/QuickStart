@@ -88,5 +88,13 @@ Project:
    Uri: 'urn:FTOptix:Retentivity:Net'
    Module: FTOptix.Retentivity.Net
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  24:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
  Nodes:
  - File: Nodes/QuickStart.yaml
