@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=d2be6603232302324df9c03ff9ac99aa
 Type: FolderType
 Children:
 - Name: AlarmDB
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=7d6154b024e2e49a1472a06b5c3f77ef
     Type: BaseObjectType
     Children:
     - Name: AlarmsEventLogger1
+      Id: g=4c26b0c44eedf8cf0571ee3d67ee4bee
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,45 +27,56 @@ Children:
         Target: ns=17;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=eba61886f765e733781327b9b60954b5
         Type: BaseObjectType
         Children:
         - Name: ActiveState_Id
+          Id: g=608bf19380dd991a1e80f958a8f0981b
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: AckedState_Id
+          Id: g=0d7418cd77b507702ade9865576ee080
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConfirmedState_Id
+          Id: g=7cd33f49f7db4800c7013675e5589e73
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConditionName
+          Id: g=4f8c67243f39d58b2558bd493146f9fd
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: EnabledState_Id
+          Id: g=995bd9dbb06ac43cfed27edf330bf1ff
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: SourceName
+          Id: g=151166f23199a0fcd7a6a3fa7fe16462
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Time
+          Id: g=dd7dc72e0c07c27aa25dca3bb20a9346
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
+          Id: g=d119f97eaed335eee3ef25dcbeb2a367
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Severity
+          Id: g=73a2adc4b426f37381cf9d21de28f55b
           Type: StoreColumn
           DataType: UInt16
           Value: 0
         - Name: LocalTime
+          Id: g=949edf3967949ad92f647e418242b3ee
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
@@ -73,16 +87,19 @@ Children:
     Target: ns=19;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=47c99918da9ab2ad27c586c5a997727d
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=2c1fdf2d079451947e6a62c5709835ce
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=2134a07c18d555f6e60668f5c9377966
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -90,6 +107,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=2c1cc590de17ba43e5b596f1ca070ab6
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -132,9 +150,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=c5dfa15cb03078743ebbc2adc5e0b854
     Type: BaseObjectType
     Children:
     - Name: RecipeSchema1
+      Id: g=b0f416bf491c61f0856ba44281946ce0
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -150,21 +170,26 @@ Children:
         Target: ns=17;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=cce110926e4373367b0a08f140e73d4a
         Type: BaseObjectType
         Children:
         - Name: Name
+          Id: g=b797cd9c68ae4785a976bd4709151964
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: /Ingredient01
+          Id: g=4c2c207f85d4893bbe35752765496545
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /Ingredient02
+          Id: g=64dfa1cbc4a260667f5bf787c6a0f7a0
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /Ingredient03
+          Id: g=fc754aa2a1e979f39399156e475f6f80
           Type: StoreColumn
           DataType: Int32
           Value: 0
@@ -175,16 +200,19 @@ Children:
     Target: ns=19;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=7dac680cb056af443f83dac584435401
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=60288a01e59678472c574266cfd952e3
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=c8489c9d5674a3d2d1e1e522294d4420
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -192,6 +220,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=42301640416087464e6c1509847dc086
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read

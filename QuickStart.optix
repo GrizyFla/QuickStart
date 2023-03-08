@@ -105,5 +105,37 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.0
+  28:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.0
+  29:
+   Uri: 'urn:FTOptix:OPCUAClient'
+   Module: FTOptix.OPCUAClient
+   Version: 1.0
+  30:
+   Uri: 'urn:FTOptix:OPCUAClient:Net'
+   Module: FTOptix.OPCUAClient.Net
+   Version: 1.0
+  31:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 1.0
+  32:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 1.0
+  33:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 1.0
+  34:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 1.0
  Nodes:
  - File: Nodes/QuickStart.yaml

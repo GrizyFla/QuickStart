@@ -1,0 +1,37 @@
+Name: RAEtherNet_IPStation1
+Id: g=863895c8dd3f3bedb58b13a1b609a3ac
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Id: g=5da69cbaa4e0f8b69d3aed2b0a7924f2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "10.84.103.91"
+- Name: OperationCode
+  Id: g=8b6f522bf998186a316e47300916f2bf
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=31;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=31;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=3ef5eba3446dee7bd488c7d6b5794f55
+  Type: BaseObjectType

@@ -1,28 +1,35 @@
 Name: Alarms
+Id: g=bd1511137948fa1c6b03e421d6dd143e
 Type: FolderType
 Children:
 - Name: DigitalAlarm1
+  Id: g=d9d509ca4d9ff0c26109f4fc807aa9d3
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=5e55e01e24249dd11fe955525d1c5e04
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=cfd75dee28d6b26cdf6d735c3199526e
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=4730fc375dfc465b67e95ecc04debbf0
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/Motor1Alarm"
       Children:
       - Name: Mode
+        Id: g=54905335b4bfa6c0e8b2c5fa3ee062a1
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=0d17493479c622db4f45eacb418eb9b0
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -37,6 +44,7 @@ Children:
     Target: ns=14;i=83
     Direction: Forward
   - Name: Message
+    Id: g=48839ca7b69d80e53bdea0e596eb8c33
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Motor1 alarm"}

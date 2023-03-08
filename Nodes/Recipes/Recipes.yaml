@@ -1,4 +1,5 @@
 Name: Recipes
+Id: g=aa6ed210401ca672faabdb10716f7441
 Type: FolderType
 Children:
 - Name: RecipeSchema1
@@ -6,17 +7,21 @@ Children:
   Type: RecipeSchema
   Children:
   - Name: Root
+    Id: g=710c906ae329cc81aee2b2d4751890eb
     Type: BaseObjectType
     Children:
     - Name: Ingredient01
+      Id: g=34c5c47b5849ed2dff864e094fa11f36
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Ingredient02
+      Id: g=ed3a669c8300a1e431c009f9bf77ff29
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Ingredient03
+      Id: g=005141ea00bcdf548cdaeac6952371f5
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
@@ -54,20 +59,24 @@ Children:
     Target: ns=23;i=60
     Direction: Forward
   - Name: TargetNode
+    Id: g=781a3ae5923505a3c1fe190b410dee99
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"a009f482ca8d533a668320c5554d0187","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=0d2f70c3d3ee54bbe380f83844809070
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Store
+    Id: g=79d7cca60ca1e7ace86d90b33fb5aa63
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"b3ad8734d7e065d86607fa4db7fd96eb","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=53aed0a0d186109b3ab5378633a114cc
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":1,"Namespace":17}
@@ -76,14 +85,17 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: Ingredient01
+      Id: g=b543381de0d24590d9c2393de58dcc3d
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Ingredient02
+      Id: g=c5bbdef7ef33b1a76ef1406ddf7f73cf
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Ingredient03
+      Id: g=c4fe0e1b93a3f04e8c376c9378b75103
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0

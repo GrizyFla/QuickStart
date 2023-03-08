@@ -7,6 +7,10 @@ using FTOptix.Store;
 using FTOptix.EventLogger;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

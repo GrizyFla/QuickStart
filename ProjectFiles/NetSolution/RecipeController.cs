@@ -13,6 +13,10 @@ using System.Linq;
 using System.Globalization;
 using FTOptix.Store;
 using FTOptix.WebUI;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 
 #endregion
 
