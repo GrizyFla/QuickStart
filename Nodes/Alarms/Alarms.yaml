@@ -14,13 +14,13 @@ Children:
     Value: 0.0
     Children:
     - Name: DynamicLink
-      Type: DataBind
+      Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/Motor1Alarm"
       Children:
       - Name: Mode
         Type: BaseVariableType
-        DataType: DataBindModeType
+        DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType

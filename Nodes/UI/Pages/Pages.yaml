@@ -94,7 +94,7 @@ Children:
       Value: false
       Children:
       - Name: DynamicLink
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../Switch1/Checked"
     - Name: Width
@@ -131,7 +131,7 @@ Children:
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Type: DataBind
+            Type: DynamicLink
             DataType: NodePath
             Value: "../../../../SpinBox1/Value"
         - Name: Pairs
@@ -207,13 +207,13 @@ Children:
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=7;g=27c6192b-7955-55bc-df88-4f4a34bd48ca}"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
@@ -240,13 +240,13 @@ Children:
       Value: 0.0
       Children:
       - Name: DynamicLink
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=7;g=27c6192b-7955-55bc-df88-4f4a34bd48ca}"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: MinValue
@@ -349,7 +349,7 @@ Children:
                 ModellingRule: Optional
                 Value: 2
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../AlarmsDataGrid/SelectedItem@NodeId"
             - Name: Method
@@ -552,7 +552,7 @@ Children:
                 ModellingRule: Optional
                 Value: 2
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../AlarmsDataGrid/SelectedItem@NodeId"
             - Name: Method
@@ -721,7 +721,7 @@ Children:
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: DynamicLink
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=14;i=45}@Pointer"
       - Name: Query
@@ -777,7 +777,7 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/LocalTime"
                 - Name: Source1
@@ -786,7 +786,7 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/Time"
         - Name: Name
@@ -821,7 +821,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}@BrowseName"
         - Name: SourceVariable
@@ -856,7 +856,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/SourceName"
         - Name: Message
@@ -891,7 +891,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Message"
         - Name: Active
@@ -934,7 +934,7 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/ActiveState/Id"
                 - Name: Pairs
@@ -1010,7 +1010,7 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/AckedState/Id"
                 - Name: Pairs
@@ -1086,7 +1086,7 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/ConfirmedState/Id"
                 - Name: Pairs
@@ -1154,7 +1154,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Severity"
       - Name: SelectedItem
@@ -1201,7 +1201,7 @@ Children:
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: CollegamentoDinamico
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "../Columns/Timestamp@NodeId"
       - Name: LeftMargin
@@ -1238,13 +1238,13 @@ Children:
       Value: false
       Children:
       - Name: DynamicLink
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=7;g=b49bdf44-af54-3cb0-ac19-a1a4f9c3c1d5}"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
@@ -1321,7 +1321,7 @@ Children:
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: DynamicLink
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "{AlarmsEventLogger}/Store@NodeId"
       - Name: Query
@@ -1344,13 +1344,13 @@ Children:
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
-              Type: DataBind
+              Type: DynamicLink
               DataType: NodePath
               Value: "{AlarmsEventLogger}@BrowseName"
               Children:
               - Name: Mode
                 Type: BaseVariableType
-                DataType: DataBindModeType
+                DataType: DynamicLinkMode
                 Value: 2
           - Name: Source1
             Type: BaseDataVariableType
@@ -1372,17 +1372,17 @@ Children:
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
-                  Value: "{Session}/ActualLocaleIds[0]"
+                  Value: "{Session}/ActualLocaleId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     Value: 0
               - Name: Mode
                 Type: PropertyType
-                DataType: DataBindModeType
+                DataType: DynamicLinkMode
                 ReferenceType: HasComponent
                 Value: 0
           - Name: Source2
@@ -1391,13 +1391,13 @@ Children:
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
-              Type: DataBind
+              Type: DynamicLink
               DataType: NodePath
               Value: "../../../../From@Value"
               Children:
               - Name: Mode
                 Type: BaseVariableType
-                DataType: DataBindModeType
+                DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
           - Name: Source3
@@ -1406,13 +1406,13 @@ Children:
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
-              Type: DataBind
+              Type: DynamicLink
               DataType: NodePath
               Value: "../../../../To@Value"
               Children:
               - Name: Mode
                 Type: BaseVariableType
-                DataType: DataBindModeType
+                DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
       - Name: Columns
@@ -1450,7 +1450,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/LocalTime"
         - Name: Name
@@ -1485,7 +1485,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/ConditionName"
         - Name: SourceName
@@ -1520,7 +1520,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/SourceName"
         - Name: Message
@@ -1555,7 +1555,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Message"
         - Name: Active
@@ -1598,13 +1598,13 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: CollegamentoDinamico
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/ActiveState_Id"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: Pairs
@@ -1680,13 +1680,13 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/AckedState_Id"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: Pairs
@@ -1762,13 +1762,13 @@ Children:
                   ReferenceType: HasSource
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/ConfirmedState_Id"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: Pairs
@@ -1836,7 +1836,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Severity"
       - Name: SelectedItem
@@ -1908,7 +1908,7 @@ Children:
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: DynamicLink
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "../Columns/Timestamp@NodeId"
     - Name: FilteringOptionsPanel
@@ -1987,13 +1987,13 @@ Children:
               Value: "1601-01-01T00:00:00.0000000"
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../From"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   Value: 2
             - Name: Width
               Type: BaseVariableType
@@ -2042,13 +2042,13 @@ Children:
               Value: "1601-01-01T00:00:00.0000000"
               Children:
               - Name: CollegamentoDinamico
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../To"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   Value: 2
             - Name: Width
               Type: BaseVariableType
@@ -2124,13 +2124,13 @@ Children:
                     DataType: NodeId
                     Value: {"Id":58}
                   - Name: CollegamentoDinamico
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../../AlarmHistoryGridWithTimeFilter@NodeId"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: Method
@@ -2244,12 +2244,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 600.0
+      Value: 1060.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 340.0
     - Name: RecipesComboBox
       Type: ComboBox
       Children:
@@ -2344,7 +2344,7 @@ Children:
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "{Item}/Name"
       - Name: OrderBy
@@ -2368,7 +2368,7 @@ Children:
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "../../RecipeController/Message"
       - Name: LeftMargin
@@ -2472,13 +2472,13 @@ Children:
                 DataType: NodeId
                 Value: {"Id":58}
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../RecipeController@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=2;Method
@@ -2494,13 +2494,13 @@ Children:
                 Value: ""
                 Children:
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../RecipesComboBox/Text"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ErrorPolicy
@@ -2520,13 +2520,13 @@ Children:
                 DataType: NodeId
                 Value: {"Id":58}
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../RecipesComboBox@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=2;Method
@@ -2624,13 +2624,13 @@ Children:
                 DataType: NodeId
                 Value: {"Id":58}
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../RecipeController@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=2;Method
@@ -2646,13 +2646,13 @@ Children:
                 Value: ""
                 Children:
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../RecipesComboBox/Text"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
           - Name: MethodContainer2
@@ -2668,13 +2668,13 @@ Children:
                 DataType: NodeId
                 Value: {"Id":58}
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../RecipesComboBox@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=2;Method
@@ -2772,13 +2772,13 @@ Children:
                 DataType: NodeId
                 Value: {"Id":58}
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../RecipeController@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=2;Method
@@ -2893,13 +2893,13 @@ Children:
                 DataType: NodeId
                 Value: {"Id":58}
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../RecipeController@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=2;Method
@@ -3044,7 +3044,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{NodeId:ns=7;g=8b1b0d7d-ce97-1390-5fb7-733f8a24370f}"
             - Name: VerticalAlignment
@@ -3066,13 +3066,13 @@ Children:
               Value: 0.0
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{RecipeSchema1}/Ingredient01"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   Value: 2
             - Name: VerticalAlignment
               Type: BaseVariableType
@@ -3134,7 +3134,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{NodeId:ns=7;g=4408ed5a-dc7b-57fe-e5ed-044ddb560520}"
             - Name: VerticalAlignment
@@ -3156,13 +3156,13 @@ Children:
               Value: 0.0
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{RecipeSchema1}/Ingredient02"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   Value: 2
             - Name: VerticalAlignment
               Type: BaseVariableType
@@ -3224,7 +3224,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{NodeId:ns=7;g=562918e0-b20c-13d2-c88f-f6cafa9ef57a}"
             - Name: VerticalAlignment
@@ -3246,13 +3246,13 @@ Children:
               Value: 0.0
               Children:
               - Name: DynamicLink
-                Type: DataBind
+                Type: DynamicLink
                 DataType: NodePath
                 Value: "{RecipeSchema1}/Ingredient03"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
-                  DataType: DataBindModeType
+                  DataType: DynamicLinkMode
                   Value: 2
             - Name: VerticalAlignment
               Type: BaseVariableType
@@ -3375,13 +3375,13 @@ Children:
           DataType: NodeId
           Value: {"Id":2,"Namespace":23}
         - Name: DynamicLink
-          Type: DataBind
+          Type: DynamicLink
           DataType: NodePath
           Value: "../../RecipeSchema@NodeId"
           Children:
           - Name: Mode
             Type: BaseVariableType
-            DataType: DataBindModeType
+            DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: CSVFile
@@ -3474,13 +3474,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -3496,13 +3496,13 @@ Children:
                   Value: ""
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../RecipeName"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: ErrorPolicy
@@ -3511,13 +3511,13 @@ Children:
                   Value: 0
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../ErrorPolicy"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
@@ -3603,13 +3603,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -3625,13 +3625,13 @@ Children:
                   Value: 0
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../ErrorPolicy"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
@@ -3717,13 +3717,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -3739,13 +3739,13 @@ Children:
                   Value: ""
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../RecipeName"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
@@ -3831,13 +3831,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -3927,13 +3927,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -4023,13 +4023,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -4045,13 +4045,13 @@ Children:
                   Value: 0
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../ErrorPolicy"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
@@ -4137,13 +4137,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -4159,13 +4159,13 @@ Children:
                   Value: ""
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../RecipeName"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: ErrorPolicy
@@ -4174,13 +4174,13 @@ Children:
                   Value: 0
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../ErrorPolicy"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
@@ -4266,13 +4266,13 @@ Children:
                   DataType: NodeId
                   Value: {"Id":58}
                 - Name: DynamicLink
-                  Type: DataBind
+                  Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../..@NodeId"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
-                    DataType: DataBindModeType
+                    DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=2;Method
@@ -4288,13 +4288,13 @@ Children:
                   Value: ""
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../RecipeName"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: ErrorPolicy
@@ -4303,13 +4303,13 @@ Children:
                   Value: 0
                   Children:
                   - Name: DynamicLink
-                    Type: DataBind
+                    Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../ErrorPolicy"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
-                      DataType: DataBindModeType
+                      DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
@@ -4366,8 +4366,3 @@ Children:
         Type: BehaviourStartPriorityVariableType
         DataType: Byte
         Value: 180
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3

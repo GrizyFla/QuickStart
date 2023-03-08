@@ -146,13 +146,13 @@ Children:
       Value: false
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ActiveState_Id"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: AckedState_Id
       Type: EventFieldToLog
@@ -160,13 +160,13 @@ Children:
       Value: false
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/AckedState_Id"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: ConfirmedState_Id
       Type: EventFieldToLog
@@ -174,13 +174,13 @@ Children:
       Value: false
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConfirmedState_Id"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: ConditionName
       Type: EventFieldToLog
@@ -188,13 +188,13 @@ Children:
       Value: ""
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConditionName"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: EnabledState_Id
       Type: EventFieldToLog
@@ -202,13 +202,13 @@ Children:
       Value: false
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/EnabledState_Id"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: SourceName
       Type: EventFieldToLog
@@ -216,13 +216,13 @@ Children:
       Value: ""
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/SourceName"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: Time
       Type: EventFieldToLog
@@ -230,13 +230,13 @@ Children:
       Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Time"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: Message
       Type: EventFieldToLog
@@ -244,13 +244,13 @@ Children:
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Message"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: Severity
       Type: EventFieldToLog
@@ -258,13 +258,13 @@ Children:
       Value: 0
       Children:
       - Name: DataBind
-        Type: DataBind
+        Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Severity"
         Children:
         - Name: Mode
           Type: BaseVariableType
-          DataType: DataBindModeType
+          DataType: DynamicLinkMode
           Value: 2
     - Name: LocalTime
       Type: EventFieldToLog
@@ -285,7 +285,7 @@ Children:
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Type: DataBind
+            Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/Time"
         - Name: ns=2;Source1
@@ -294,6 +294,6 @@ Children:
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Type: DataBind
+            Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/LocalTime"

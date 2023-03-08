@@ -14,6 +14,7 @@ using System.Linq;
 using System.Collections.Generic;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
+using FTOptix.WebUI;
 #endregion
 
 public class RecipesEditorUISetup : BaseNetLogic
@@ -412,10 +413,10 @@ public class RecipesEditorUISetup : BaseNetLogic
 
     private void MakeDynamicLink(IUAVariable parent, string nodePath)
     {
-        var dataBind = InformationModel.MakeVariable<DataBind>("DynamicLink", FTOptix.Core.DataTypes.NodePath);
-        dataBind.Value = nodePath;
-        dataBind.Mode = DynamicLinkMode.ReadWrite;
-        parent.Refs.AddReference(FTOptix.CoreBase.ReferenceTypes.HasDataBind, dataBind);
+        var dynamicLink = InformationModel.MakeVariable<DynamicLink>("DynamicLink", FTOptix.Core.DataTypes.NodePath);
+        dynamicLink.Value = nodePath;
+        dynamicLink.Mode = DynamicLinkMode.ReadWrite;
+        parent.Refs.AddReference(FTOptix.CoreBase.ReferenceTypes.HasDynamicLink, dynamicLink);
     }
 
     private void MakeDynamicLink(IUAVariable parent, string nodePath, uint index)
