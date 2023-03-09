@@ -339,6 +339,374 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
+  - Name: ES_ACMotor1
+    Id: g=12b7046936efbb2c564033fcc80a3f1d
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: BorderColor
+      Id: g=e3dabeb640fbbc6e2ccb34dc998b7ce4
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#010101"
+    - Name: Width
+      Id: g=6365c659f38db15f94a30e2a24a0d913
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.500999450683594
+    - Name: Height
+      Id: g=3bc00ec23ff311991e784315a392190a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.500999450683594
+    - Name: electricalSymbol_border
+      Id: g=eac1aed9a6d1c07d304f1b9fca17afd5
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=6a5f8fc8e54182206da6a99e3529b93e
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ES_ACMotor_electricalSymbol_border.svg"
+      - Name: DynamicColor
+        Id: g=3ed318347277dab1cf4fd2b82293a538
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#010101"
+        Children:
+        - Name: DynamicLink
+          Id: g=3e2b758a35ddcdee3b51ee7e71647c2c
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderColor"
+      - Name: Width
+        Id: g=b3b0f7039f074dbbc9edf65ce79867b5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.500999450683594
+      - Name: Height
+        Id: g=96874ccc07ccb2176fff908b0d7a3078
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.500999450683594
+    - Name: OriginalWidth
+      Id: g=1da70933e9cd2c51ed4c3f6b7af7c57d
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.500999450683594
+    - Name: OriginalHeight
+      Id: g=974a7be33b831815a66ae25ed00eb07f
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.500999450683594
+    - Name: LeftMargin
+      Id: g=f9aa2c4642505ab91b6cfcfd8fc6021c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 221.0
+    - Name: TopMargin
+      Id: g=5e33c12c6759c3e649dc46339c06378b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 226.0
+  - Name: ISA_ActuatorElectricalMotor1
+    Id: g=647c5edcf720b0d7a29e8fff16353a8f
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: BorderColor
+      Id: g=88ef1f1d444b4e9a458536eefebc6b1a
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#010101"
+    - Name: FillColor
+      Id: g=a05cdd228b39e3bd8d6ccb33f7bf7a5b
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: Width
+      Id: g=1bf1f7300c4cbc315227c6a2673b8f68
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 29.0
+    - Name: Height
+      Id: g=6e1f7fde7e3252f14a51685450b99846
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.5
+    - Name: Fill
+      Id: g=48c1d73a98bfb823de70d52116b60e94
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Id: g=a63e0d464003abc267dee0d28d5c7c30
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderThickness
+        Id: g=91d1de1c092006329042b8a1d78f4118
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: LeftMargin
+        Id: g=3ae316566b04b1124d5b721a8dbfb879
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.9999200701713562
+      - Name: TopMargin
+        Id: g=1b8b32be922f31fe3543008398824809
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0000250339508057
+      - Name: Width
+        Id: g=9c1cd7547016c71f8350a852058ea818
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 26.999868392944336
+      - Name: Height
+        Id: g=3c80fd4e150d509fe7e12a0c9af23119
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 17.101150512695313
+      - Name: FillColor
+        Id: g=8d8ae2fdaa65b172ed60ae9792c6a2b5
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicLink
+          Id: g=8688bbfb901429bd4e4435fb3e4a338f
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: BorderColorPE
+      Id: g=7472ffea403295a2ddc9b595357c68ec
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=ad517f8ee3af44abbdee71675555de40
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ISA_ActuatorElectricalMotor_BorderColorPE.svg"
+      - Name: Width
+        Id: g=9ea53580b9b87af283c047c0632c607e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 29.0
+      - Name: Height
+        Id: g=b38236327b38db77983eb505b13225a1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.5
+      - Name: DynamicColor
+        Id: g=83fcd0d8fb9c6e45845f81b726e4ea73
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#010101"
+        Children:
+        - Name: DynamicLink
+          Id: g=7e3b1e40b09851e380965c22f845ee07
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderColor"
+    - Name: OriginalWidth
+      Id: g=027221fac9a6d117fb81d4b6a0826cf6
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 29.0
+    - Name: OriginalHeight
+      Id: g=adfff22dceffb8ce93aca1151c0cdfe7
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.5
+    - Name: LeftMargin
+      Id: g=6aee209036345ba330477183fe9b1187
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 383.0
+    - Name: TopMargin
+      Id: g=21c6dd3039fd173adbe9a4ee9e4e6e69
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 328.0
+  - Name: ConveyorBelt30DegreeTop1
+    Id: g=3f8d8f220b4caf820d20a845f3cd01b0
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: BeltColor
+      Id: g=1fcf71df7a7fbe4c2e1bc9a149d0f105
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#808285"
+    - Name: FillColor
+      Id: g=c224390694e0fe387fc288890422ac47
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: Width
+      Id: g=3c410418f910b627ea2dc7ad1e2fca25
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 114.69400024414063
+    - Name: Height
+      Id: g=130b92b36d81222443a23f1dc79ce3ca
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 106.15599822998047
+    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_30_x5F_Degree_x5F_Outline
+      Id: g=eef115f43c0f955d131cbb91d80bbf72
+      Type: Image
+      Children:
+      - Name: Width
+        Id: g=584e4c70043932b6f94c15c85eecd4dd
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 114.69400024414063
+      - Name: Height
+        Id: g=d67c1332c6f65d9f61f4bf2409465d52
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 106.15599822998047
+      - Name: Path
+        Id: g=527ddc6d7cd05d2b2ccf3d6afabc3c50
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_30_x5F_Degree_x5F_Outline.svg"
+    - Name: Fill
+      Id: g=306a474a583fe9041858ca9ee359907e
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=e85b4c125387ae97f7f3d3587a2f9cfd
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorBelt30DegreeTop_Fill.svg"
+      - Name: Width
+        Id: g=750de8aca0d436e9ab91ce2df44ef3cd
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 114.69400024414063
+      - Name: Height
+        Id: g=1314091b61a5f304f5556fc7720326b5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 106.15599822998047
+      - Name: DynamicColor
+        Id: g=a1e53f84b72cdd85c75f41a650e26cc0
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Id: g=caa7117e9f5f4e76a422a6d89e48af00
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: Belt
+      Id: g=b5712fd42eaf254ea896f846e300ebb4
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=877c06774e2f11a3c2537409853088fd
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorBelt30DegreeTop_Belt.svg"
+      - Name: Width
+        Id: g=d47841b6dbc945cdb16b2bb36db059f3
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 114.69400024414063
+      - Name: Height
+        Id: g=95e1c37ecd897450a9576aa880aecb59
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 106.15599822998047
+      - Name: DynamicColor
+        Id: g=6ab2e2c24e87770e9a2663d54be97787
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#808285"
+        Children:
+        - Name: DynamicLink
+          Id: g=359831738780af851c8474a41331161b
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BeltColor"
+    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_30_x5F_Degree_x5F_Overlay
+      Id: g=7ab83b1dc14c194d3c3e1bf6320a5a9a
+      Type: Image
+      Children:
+      - Name: Width
+        Id: g=7ababce61032753859b278570cee1942
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 114.69400024414063
+      - Name: Height
+        Id: g=19ede92492df7bb7d2c916f003ad6904
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 106.15599822998047
+      - Name: Path
+        Id: g=c7843829ce73f23e5fc0a7daefb2bdcf
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_30_x5F_Degree_x5F_Overlay.svg"
+    - Name: OriginalWidth
+      Id: g=01078b14934018fb51a4d69d66c82419
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 114.69400024414063
+    - Name: OriginalHeight
+      Id: g=c998e66d5e6017c0a605600825173741
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 106.15599822998047
+    - Name: LeftMargin
+      Id: g=330d921b28f844281c39008a8cb5fc45
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 341.0
+    - Name: TopMargin
+      Id: g=9285f25e063f0f7a975625f782c784b5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 144.0
 - Name: Page2
   Id: g=d25f4213941236407a8ed18acf00cf9b
   Supertype: Page
