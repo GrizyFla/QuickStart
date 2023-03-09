@@ -707,6 +707,136 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 144.0
+  - Name: LED2
+    Id: g=d7f3cf9df77989e399240355ea41013a
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=fe731b714c59afec0706c22314714d63
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Id: g=9174dbf1e48dc2b9d1c5a5a84b0c504b
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Switch1/Checked"
+    - Name: Width
+      Id: g=d547905715e914a98c18b67e553dce12
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=41ed7d6a9b65a7f542681b3544d2f847
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=37eeca548ce26d841d2f8a3c5be6af2c
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Id: g=d3a8284c9f94a14d53ed379c58d66ac9
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Color
+      Id: g=91584ab7cc7500dfe7f6300a90b06068
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ff0000"
+      Children:
+      - Name: KeyValueConverter1
+        Id: g=6c3488d6727c5342fc1c6ea140053307
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Id: g=cdf87d960441f3746284aedcbfb865aa
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=2f9892008703410cc504cfa929885f47
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../SpinBox1/Value"
+        - Name: Pairs
+          Id: g=fda6e317cc546e641261ca8fdb4ef7bd
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Id: g=54c2e4192936962112dba6a5221b9810
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Id: g=0d6a6398959b830d0527cec2bade2fde
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 0
+            - Name: Value
+              Id: g=f8894d7e0fd6afe0e313861f48b522ca
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#cd163f"
+          - Name: Pair1
+            Id: g=688314692c158c39d6bf3bf9f4cdba72
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Id: g=5dfc8605dd0e41c94025d1b79ad9122b
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 1
+            - Name: Value
+              Id: g=f62f8bd47dc356d326835e7a8272b160
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f58025"
+          - Name: Pair2
+            Id: g=9746e468df2bbc24c3f641661018aec0
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Id: g=e0625e2e6ebf667cfedde51898226d0b
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+            - Name: Value
+              Id: g=85dc9d0575118a3645217166d59a3ca2
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#00aeef"
+    - Name: LeftMargin
+      Id: g=6de1dbf20332a561732f99c28ca5fade
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 290.0
+    - Name: RightMargin
+      Id: g=d4094ff152cb4b7ecc6a30068f86f53a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Id: g=c167eda71056c5c766f5909a277f0c19
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -10.0
+    - Name: BottomMargin
+      Id: g=7e4ff9aeeb0d70f98c76a0edf8b2638a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
 - Name: Page2
   Id: g=d25f4213941236407a8ed18acf00cf9b
   Supertype: Page
